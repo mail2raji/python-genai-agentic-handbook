@@ -138,4 +138,4 @@ You should see a 2-line explanation of photosynthesis. **You just used GPT-4o-mi
 
 ---
 
-✅ Ready? Open **[Module 1 → Lesson 1](Module1_GenAI_Foundations/01_Introduction_to_GenAI.md)** and let's start learning!
+✅ Ready? Open **[Chapter 6 → Lesson 1](curriculum/Chapter06_GenAI_Foundations/01_Introduction_to_GenAI.md)** and let's start learning!

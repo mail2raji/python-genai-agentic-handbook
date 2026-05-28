@@ -52,6 +52,148 @@ theme:
 
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+        # ── overview / helpers ──────────────────────────────────────
+        PartI_HandsOn/index.md:        curriculum/index.md
+        PartI_HandsOn/LAB_MENU.md:     curriculum/LAB_MENU.md
+        PartI_HandsOn/QUICKSTART.md:   curriculum/QUICKSTART.md
+        PartI_HandsOn/CONTRIBUTING.md: curriculum/CONTRIBUTING.md
+
+        # ── Chapter 1 — Python Fundamentals (was Phase 1) ───────────
+        PartI_HandsOn/Phase1_Python_Fundamentals/00_START_HERE.md:        curriculum/Chapter01_Python_Fundamentals/00_START_HERE.md
+        PartI_HandsOn/Phase1_Python_Fundamentals/01_hello_world.md:       curriculum/Chapter01_Python_Fundamentals/01_hello_world.md
+        PartI_HandsOn/Phase1_Python_Fundamentals/02_variables_and_types.md: curriculum/Chapter01_Python_Fundamentals/02_variables_and_types.md
+        PartI_HandsOn/Phase1_Python_Fundamentals/03_strings.md:           curriculum/Chapter01_Python_Fundamentals/03_strings.md
+        PartI_HandsOn/Phase1_Python_Fundamentals/04_numbers_and_math.md:  curriculum/Chapter01_Python_Fundamentals/04_numbers_and_math.md
+        PartI_HandsOn/Phase1_Python_Fundamentals/05_lists.md:             curriculum/Chapter01_Python_Fundamentals/05_lists.md
+        PartI_HandsOn/Phase1_Python_Fundamentals/06_dictionaries.md:      curriculum/Chapter01_Python_Fundamentals/06_dictionaries.md
+        PartI_HandsOn/Phase1_Python_Fundamentals/07_conditionals.md:      curriculum/Chapter01_Python_Fundamentals/07_conditionals.md
+        PartI_HandsOn/Phase1_Python_Fundamentals/08_loops.md:             curriculum/Chapter01_Python_Fundamentals/08_loops.md
+        PartI_HandsOn/Phase1_Python_Fundamentals/09_functions.md:         curriculum/Chapter01_Python_Fundamentals/09_functions.md
+        PartI_HandsOn/Phase1_Python_Fundamentals/10_files.md:             curriculum/Chapter01_Python_Fundamentals/10_files.md
+        PartI_HandsOn/Phase1_Python_Fundamentals/mini_project_log_analyzer.md: curriculum/Chapter01_Python_Fundamentals/mini_project_log_analyzer.md
+
+        # ── Chapter 2 — Intermediate Python (was Phase 2) ───────────
+        PartI_HandsOn/Phase2_Intermediate_Python/00_START_HERE.md:        curriculum/Chapter02_Intermediate_Python/00_START_HERE.md
+        PartI_HandsOn/Phase2_Intermediate_Python/01_modules.md:           curriculum/Chapter02_Intermediate_Python/01_modules.md
+        PartI_HandsOn/Phase2_Intermediate_Python/02_venv_and_pip.md:      curriculum/Chapter02_Intermediate_Python/02_venv_and_pip.md
+        PartI_HandsOn/Phase2_Intermediate_Python/03_error_handling.md:    curriculum/Chapter02_Intermediate_Python/03_error_handling.md
+        PartI_HandsOn/Phase2_Intermediate_Python/04_classes.md:           curriculum/Chapter02_Intermediate_Python/04_classes.md
+        PartI_HandsOn/Phase2_Intermediate_Python/05_type_hints.md:        curriculum/Chapter02_Intermediate_Python/05_type_hints.md
+        PartI_HandsOn/Phase2_Intermediate_Python/06_apis_requests.md:     curriculum/Chapter02_Intermediate_Python/06_apis_requests.md
+        PartI_HandsOn/Phase2_Intermediate_Python/07_async.md:             curriculum/Chapter02_Intermediate_Python/07_async.md
+        PartI_HandsOn/Phase2_Intermediate_Python/08_env_secrets.md:       curriculum/Chapter02_Intermediate_Python/08_env_secrets.md
+        PartI_HandsOn/Phase2_Intermediate_Python/mini_project_weather_chatbot.md: curriculum/Chapter02_Intermediate_Python/mini_project_weather_chatbot.md
+
+        # ── Chapter 3 — Python for AI & Data (was Phase 3) ──────────
+        PartI_HandsOn/Phase3_Python_for_AI/00_START_HERE.md:              curriculum/Chapter03_Python_for_AI_Data/00_START_HERE.md
+        PartI_HandsOn/Phase3_Python_for_AI/01_numpy.md:                   curriculum/Chapter03_Python_for_AI_Data/01_numpy.md
+        PartI_HandsOn/Phase3_Python_for_AI/02_pandas.md:                  curriculum/Chapter03_Python_for_AI_Data/02_pandas.md
+        PartI_HandsOn/Phase3_Python_for_AI/03_cosine_similarity.md:       curriculum/Chapter03_Python_for_AI_Data/03_cosine_similarity.md
+        PartI_HandsOn/Phase3_Python_for_AI/04_tokenization.md:            curriculum/Chapter03_Python_for_AI_Data/04_tokenization.md
+        PartI_HandsOn/Phase3_Python_for_AI/mini_project_csv_analyst.md:   curriculum/Chapter03_Python_for_AI_Data/mini_project_csv_analyst.md
+
+        # ── Chapter 4 — Python for GenAI · deep dive (was Module 2) ─
+        Module2_Python_for_GenAI/01_Intro_to_Python.md:                   curriculum/Chapter04_Python_for_GenAI/01_Intro_to_Python.md
+        Module2_Python_for_GenAI/02_Files_and_Databases.md:               curriculum/Chapter04_Python_for_GenAI/02_Files_and_Databases.md
+        Module2_Python_for_GenAI/03_Working_with_APIs.md:                 curriculum/Chapter04_Python_for_GenAI/03_Working_with_APIs.md
+        Module2_Python_for_GenAI/04_Working_with_LLMs.md:                 curriculum/Chapter04_Python_for_GenAI/04_Working_with_LLMs.md
+        Module2_Python_for_GenAI/99_Advanced_Lab_Invoice_Pipeline.md:     curriculum/Chapter04_Python_for_GenAI/99_Advanced_Lab_Invoice_Pipeline.md
+
+        # ── Chapter 5 — GenAI Fundamentals · hands-on (was Phase 4) ─
+        PartI_HandsOn/Phase4_GenAI_Fundamentals/00_START_HERE.md:         curriculum/Chapter05_GenAI_Fundamentals/00_START_HERE.md
+        PartI_HandsOn/Phase4_GenAI_Fundamentals/01_what_is_llm.md:        curriculum/Chapter05_GenAI_Fundamentals/01_what_is_llm.md
+        PartI_HandsOn/Phase4_GenAI_Fundamentals/02_first_llm_call.md:     curriculum/Chapter05_GenAI_Fundamentals/02_first_llm_call.md
+        PartI_HandsOn/Phase4_GenAI_Fundamentals/03_prompt_engineering.md: curriculum/Chapter05_GenAI_Fundamentals/03_prompt_engineering.md
+        PartI_HandsOn/Phase4_GenAI_Fundamentals/04_structured_outputs.md: curriculum/Chapter05_GenAI_Fundamentals/04_structured_outputs.md
+        PartI_HandsOn/Phase4_GenAI_Fundamentals/05_streaming.md:          curriculum/Chapter05_GenAI_Fundamentals/05_streaming.md
+        PartI_HandsOn/Phase4_GenAI_Fundamentals/06_embeddings.md:         curriculum/Chapter05_GenAI_Fundamentals/06_embeddings.md
+        PartI_HandsOn/Phase4_GenAI_Fundamentals/07_rag_system.md:         curriculum/Chapter05_GenAI_Fundamentals/07_rag_system.md
+        PartI_HandsOn/Phase4_GenAI_Fundamentals/llm_client.md:            curriculum/Chapter05_GenAI_Fundamentals/llm_client.md
+        PartI_HandsOn/Phase4_GenAI_Fundamentals/mini_project_doc_qa.md:   curriculum/Chapter05_GenAI_Fundamentals/mini_project_doc_qa.md
+
+        # ── Chapter 6 — GenAI Foundations · deep dive (was Module 1) ─
+        Module1_GenAI_Foundations/01_Introduction_to_GenAI.md:            curriculum/Chapter06_GenAI_Foundations/01_Introduction_to_GenAI.md
+        Module1_GenAI_Foundations/02_Prompt_Engineering.md:               curriculum/Chapter06_GenAI_Foundations/02_Prompt_Engineering.md
+        Module1_GenAI_Foundations/03_FineTuning_RAG_Agents.md:            curriculum/Chapter06_GenAI_Foundations/03_FineTuning_RAG_Agents.md
+        Module1_GenAI_Foundations/99_Advanced_Lab_Support_Triage.md:      curriculum/Chapter06_GenAI_Foundations/99_Advanced_Lab_Support_Triage.md
+
+        # ── Chapter 7 — LangChain Core (was Module 3) ───────────────
+        Module3_LangChain/01_Introduction_to_LangChain.md:                curriculum/Chapter07_LangChain_Core/01_Introduction_to_LangChain.md
+        Module3_LangChain/02_LCEL_Essentials.md:                          curriculum/Chapter07_LangChain_Core/02_LCEL_Essentials.md
+        Module3_LangChain/03_Managing_LLM_IO.md:                          curriculum/Chapter07_LangChain_Core/03_Managing_LLM_IO.md
+        Module3_LangChain/04_Prompt_Engineering_with_LangChain.md:        curriculum/Chapter07_LangChain_Core/04_Prompt_Engineering_with_LangChain.md
+        Module3_LangChain/99_Advanced_Lab_Onboarding_Wizard.md:           curriculum/Chapter07_LangChain_Core/99_Advanced_Lab_Onboarding_Wizard.md
+
+        # ── Chapter 8 — RAG Systems & Frameworks (was Module 4) ─────
+        Module4_RAG_and_Frameworks/01_RAG_System_Essentials.md:           curriculum/Chapter08_RAG_Systems_Frameworks/01_RAG_System_Essentials.md
+        Module4_RAG_and_Frameworks/02_LangChain_LangGraph_CrewAI.md:      curriculum/Chapter08_RAG_Systems_Frameworks/02_LangChain_LangGraph_CrewAI.md
+        Module4_RAG_and_Frameworks/99_Advanced_Lab_Legal_RAG.md:          curriculum/Chapter08_RAG_Systems_Frameworks/99_Advanced_Lab_Legal_RAG.md
+
+        # ── Chapter 9 — Agentic AI · hands-on (was Phase 5) ─────────
+        PartI_HandsOn/Phase5_Agentic_AI/00_START_HERE.md:                 curriculum/Chapter09_Agentic_AI_HandsOn/00_START_HERE.md
+        PartI_HandsOn/Phase5_Agentic_AI/01_what_is_agent.md:              curriculum/Chapter09_Agentic_AI_HandsOn/01_what_is_agent.md
+        PartI_HandsOn/Phase5_Agentic_AI/02_function_calling.md:           curriculum/Chapter09_Agentic_AI_HandsOn/02_function_calling.md
+        PartI_HandsOn/Phase5_Agentic_AI/03_react_agent.md:                curriculum/Chapter09_Agentic_AI_HandsOn/03_react_agent.md
+        PartI_HandsOn/Phase5_Agentic_AI/04_memory.md:                     curriculum/Chapter09_Agentic_AI_HandsOn/04_memory.md
+        PartI_HandsOn/Phase5_Agentic_AI/05_guardrails.md:                 curriculum/Chapter09_Agentic_AI_HandsOn/05_guardrails.md
+        PartI_HandsOn/Phase5_Agentic_AI/06_multi_agent.md:                curriculum/Chapter09_Agentic_AI_HandsOn/06_multi_agent.md
+        PartI_HandsOn/Phase5_Agentic_AI/07_langgraph_intro.md:            curriculum/Chapter09_Agentic_AI_HandsOn/07_langgraph_intro.md
+        PartI_HandsOn/Phase5_Agentic_AI/llm_client.md:                    curriculum/Chapter09_Agentic_AI_HandsOn/llm_client.md
+        PartI_HandsOn/Phase5_Agentic_AI/mini_project_it_triage_agent.md:  curriculum/Chapter09_Agentic_AI_HandsOn/mini_project_it_triage_agent.md
+
+        # ── Chapter 10 — Agentic AI Patterns · deep dive (was Module 5) ─
+        Module5_Agentic_AI/01_Agentic_Design_Patterns.md:                 curriculum/Chapter10_Agentic_AI_Patterns/01_Agentic_Design_Patterns.md
+        Module5_Agentic_AI/02_Introduction_to_AI_Agents.md:               curriculum/Chapter10_Agentic_AI_Patterns/02_Introduction_to_AI_Agents.md
+        Module5_Agentic_AI/03_Build_a_Reflection_Agent.md:                curriculum/Chapter10_Agentic_AI_Patterns/03_Build_a_Reflection_Agent.md
+        Module5_Agentic_AI/04_Build_a_Tool_Using_Agent.md:                curriculum/Chapter10_Agentic_AI_Patterns/04_Build_a_Tool_Using_Agent.md
+        Module5_Agentic_AI/05_Build_a_Planning_Agent.md:                  curriculum/Chapter10_Agentic_AI_Patterns/05_Build_a_Planning_Agent.md
+        Module5_Agentic_AI/06_Build_a_Multi_Agent_System.md:              curriculum/Chapter10_Agentic_AI_Patterns/06_Build_a_Multi_Agent_System.md
+        Module5_Agentic_AI/99_Advanced_Lab_Engineering_Crew.md:           curriculum/Chapter10_Agentic_AI_Patterns/99_Advanced_Lab_Engineering_Crew.md
+
+        # ── Chapter 11 — Capstone Projects (IT-ops) (was Phase 6) ───
+        PartI_HandsOn/Phase6_Capstone_Projects/00_START_HERE.md:          curriculum/Chapter11_Capstones_ITops/00_START_HERE.md
+        PartI_HandsOn/Phase6_Capstone_Projects/capstone1_spn_renewal_concierge.md: curriculum/Chapter11_Capstones_ITops/capstone1_spn_renewal_concierge.md
+        PartI_HandsOn/Phase6_Capstone_Projects/capstone2_powershell_doc_buddy.md:  curriculum/Chapter11_Capstones_ITops/capstone2_powershell_doc_buddy.md
+        PartI_HandsOn/Phase6_Capstone_Projects/capstone3_incident_reporter.md:     curriculum/Chapter11_Capstones_ITops/capstone3_incident_reporter.md
+
+        # ── Chapter 12 — Production Agents (was Phase 7) ────────────
+        PartI_HandsOn/Phase7_Production_Agents/00_START_HERE.md:          curriculum/Chapter12_Production_Agents/00_START_HERE.md
+        PartI_HandsOn/Phase7_Production_Agents/01_mcp.md:                 curriculum/Chapter12_Production_Agents/01_mcp.md
+        PartI_HandsOn/Phase7_Production_Agents/02_mcp_server_and_client.md: curriculum/Chapter12_Production_Agents/02_mcp_server_and_client.md
+        PartI_HandsOn/Phase7_Production_Agents/03_memory_production.md:   curriculum/Chapter12_Production_Agents/03_memory_production.md
+        PartI_HandsOn/Phase7_Production_Agents/04_evaluation.md:          curriculum/Chapter12_Production_Agents/04_evaluation.md
+        PartI_HandsOn/Phase7_Production_Agents/05_observability.md:       curriculum/Chapter12_Production_Agents/05_observability.md
+        PartI_HandsOn/Phase7_Production_Agents/06_failure_modes.md:       curriculum/Chapter12_Production_Agents/06_failure_modes.md
+        PartI_HandsOn/Phase7_Production_Agents/07_architecture.md:        curriculum/Chapter12_Production_Agents/07_architecture.md
+        PartI_HandsOn/Phase7_Production_Agents/08_deploy_langgraph_k8s.md: curriculum/Chapter12_Production_Agents/08_deploy_langgraph_k8s.md
+        PartI_HandsOn/Phase7_Production_Agents/capstone_production_agent.md: curriculum/Chapter12_Production_Agents/capstone_production_agent.md
+        PartI_HandsOn/Phase7_Production_Agents/llm_client.md:             curriculum/Chapter12_Production_Agents/llm_client.md
+
+        # ── Chapters 13–23 — Stage F (Git / GitHub / Copilot / Security) ─
+        PartI_HandsOn/Phase8_GitHub_Setup/index.md:          curriculum/Chapter13_GitHub_Setup/index.md
+        PartI_HandsOn/Phase8_GitHub_Setup/exercises.md:      curriculum/Chapter13_GitHub_Setup/exercises.md
+        PartI_HandsOn/Phase9_Git_Fundamentals/index.md:      curriculum/Chapter14_Git_Fundamentals/index.md
+        PartI_HandsOn/Phase9_Git_Fundamentals/exercises.md:  curriculum/Chapter14_Git_Fundamentals/exercises.md
+        PartI_HandsOn/Phase10_GitHub_Basics/index.md:        curriculum/Chapter15_GitHub_Basics/index.md
+        PartI_HandsOn/Phase10_GitHub_Basics/exercises.md:    curriculum/Chapter15_GitHub_Basics/exercises.md
+        PartI_HandsOn/Phase11_Intermediate_Git/index.md:     curriculum/Chapter16_Intermediate_Git/index.md
+        PartI_HandsOn/Phase11_Intermediate_Git/exercises.md: curriculum/Chapter16_Intermediate_Git/exercises.md
+        PartI_HandsOn/Phase12_GitHub_Actions/index.md:       curriculum/Chapter17_GitHub_Actions/index.md
+        PartI_HandsOn/Phase12_GitHub_Actions/exercises.md:   curriculum/Chapter17_GitHub_Actions/exercises.md
+        PartI_HandsOn/Phase13_Copilot_GenAI/index.md:        curriculum/Chapter18_Copilot_GenAI/index.md
+        PartI_HandsOn/Phase13_Copilot_GenAI/exercises.md:    curriculum/Chapter18_Copilot_GenAI/exercises.md
+        PartI_HandsOn/Phase14_Copilot_CLI/index.md:          curriculum/Chapter19_Copilot_CLI/index.md
+        PartI_HandsOn/Phase14_Copilot_CLI/exercises.md:      curriculum/Chapter19_Copilot_CLI/exercises.md
+        PartI_HandsOn/Phase15_Agentic_AI_Copilot/index.md:   curriculum/Chapter20_Agentic_AI_Copilot/index.md
+        PartI_HandsOn/Phase15_Agentic_AI_Copilot/exercises.md: curriculum/Chapter20_Agentic_AI_Copilot/exercises.md
+        PartI_HandsOn/Phase16_GHAS_Admin/index.md:           curriculum/Chapter21_GHAS_Admin_Security/index.md
+        PartI_HandsOn/Phase16_GHAS_Admin/exercises.md:       curriculum/Chapter21_GHAS_Admin_Security/exercises.md
+        PartI_HandsOn/Phase17_ExamPrep/index.md:             curriculum/Chapter22_Exam_Prep/index.md
+        PartI_HandsOn/Phase17_ExamPrep/exercises.md:         curriculum/Chapter22_Exam_Prep/exercises.md
+        PartI_HandsOn/Phase18_Capstone/index.md:             curriculum/Chapter23_Final_Capstone/index.md
+        PartI_HandsOn/Phase18_Capstone/exercises.md:         curriculum/Chapter23_Final_Capstone/exercises.md
 
 markdown_extensions:
   - admonition
@@ -80,168 +222,168 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Setup: SETUP.md
-  - "🧪 Lab menu":      PartI_HandsOn/LAB_MENU.md
-  - "⚙️ Quickstart":    PartI_HandsOn/QUICKSTART.md
-  - "🤝 Contributing":  PartI_HandsOn/CONTRIBUTING.md
+  - "🧪 Lab menu":      curriculum/LAB_MENU.md
+  - "⚙️ Quickstart":    curriculum/QUICKSTART.md
+  - "🤝 Contributing":  curriculum/CONTRIBUTING.md
 
   - "📚 Curriculum — 23 chapters in one flow":
-      - "📖 Curriculum overview": PartI_HandsOn/index.md
+      - "📖 Curriculum overview": curriculum/index.md
 
       # ───────────────────────────────────────────────────────────────
       # 🐍 Stage A — Python foundations (Chapters 1–4)
       # ───────────────────────────────────────────────────────────────
       - "Chapter 1 — Python Fundamentals":
-          - "0. Overview":              PartI_HandsOn/Phase1_Python_Fundamentals/00_START_HERE.md
-          - "1. Hello World":           PartI_HandsOn/Phase1_Python_Fundamentals/01_hello_world.md
-          - "2. Variables And Types":   PartI_HandsOn/Phase1_Python_Fundamentals/02_variables_and_types.md
-          - "3. Strings":               PartI_HandsOn/Phase1_Python_Fundamentals/03_strings.md
-          - "4. Numbers And Math":      PartI_HandsOn/Phase1_Python_Fundamentals/04_numbers_and_math.md
-          - "5. Lists":                 PartI_HandsOn/Phase1_Python_Fundamentals/05_lists.md
-          - "6. Dictionaries":          PartI_HandsOn/Phase1_Python_Fundamentals/06_dictionaries.md
-          - "7. Conditionals":          PartI_HandsOn/Phase1_Python_Fundamentals/07_conditionals.md
-          - "8. Loops":                 PartI_HandsOn/Phase1_Python_Fundamentals/08_loops.md
-          - "9. Functions":             PartI_HandsOn/Phase1_Python_Fundamentals/09_functions.md
-          - "10. Files":                PartI_HandsOn/Phase1_Python_Fundamentals/10_files.md
-          - "🛠️ Mini-Project — Log Analyzer": PartI_HandsOn/Phase1_Python_Fundamentals/mini_project_log_analyzer.md
+          - "0. Overview":              curriculum/Chapter01_Python_Fundamentals/00_START_HERE.md
+          - "1. Hello World":           curriculum/Chapter01_Python_Fundamentals/01_hello_world.md
+          - "2. Variables And Types":   curriculum/Chapter01_Python_Fundamentals/02_variables_and_types.md
+          - "3. Strings":               curriculum/Chapter01_Python_Fundamentals/03_strings.md
+          - "4. Numbers And Math":      curriculum/Chapter01_Python_Fundamentals/04_numbers_and_math.md
+          - "5. Lists":                 curriculum/Chapter01_Python_Fundamentals/05_lists.md
+          - "6. Dictionaries":          curriculum/Chapter01_Python_Fundamentals/06_dictionaries.md
+          - "7. Conditionals":          curriculum/Chapter01_Python_Fundamentals/07_conditionals.md
+          - "8. Loops":                 curriculum/Chapter01_Python_Fundamentals/08_loops.md
+          - "9. Functions":             curriculum/Chapter01_Python_Fundamentals/09_functions.md
+          - "10. Files":                curriculum/Chapter01_Python_Fundamentals/10_files.md
+          - "🛠️ Mini-Project — Log Analyzer": curriculum/Chapter01_Python_Fundamentals/mini_project_log_analyzer.md
       - "Chapter 2 — Intermediate Python":
-          - "0. Overview":              PartI_HandsOn/Phase2_Intermediate_Python/00_START_HERE.md
-          - "1. Modules":               PartI_HandsOn/Phase2_Intermediate_Python/01_modules.md
-          - "2. venv & pip":            PartI_HandsOn/Phase2_Intermediate_Python/02_venv_and_pip.md
-          - "3. Error Handling":        PartI_HandsOn/Phase2_Intermediate_Python/03_error_handling.md
-          - "4. Classes":               PartI_HandsOn/Phase2_Intermediate_Python/04_classes.md
-          - "5. Type Hints":            PartI_HandsOn/Phase2_Intermediate_Python/05_type_hints.md
-          - "6. APIs with requests":    PartI_HandsOn/Phase2_Intermediate_Python/06_apis_requests.md
-          - "7. Async I/O":             PartI_HandsOn/Phase2_Intermediate_Python/07_async.md
-          - "8. Env & secrets":         PartI_HandsOn/Phase2_Intermediate_Python/08_env_secrets.md
-          - "🛠️ Mini-Project — Weather Chatbot": PartI_HandsOn/Phase2_Intermediate_Python/mini_project_weather_chatbot.md
+          - "0. Overview":              curriculum/Chapter02_Intermediate_Python/00_START_HERE.md
+          - "1. Modules":               curriculum/Chapter02_Intermediate_Python/01_modules.md
+          - "2. venv & pip":            curriculum/Chapter02_Intermediate_Python/02_venv_and_pip.md
+          - "3. Error Handling":        curriculum/Chapter02_Intermediate_Python/03_error_handling.md
+          - "4. Classes":               curriculum/Chapter02_Intermediate_Python/04_classes.md
+          - "5. Type Hints":            curriculum/Chapter02_Intermediate_Python/05_type_hints.md
+          - "6. APIs with requests":    curriculum/Chapter02_Intermediate_Python/06_apis_requests.md
+          - "7. Async I/O":             curriculum/Chapter02_Intermediate_Python/07_async.md
+          - "8. Env & secrets":         curriculum/Chapter02_Intermediate_Python/08_env_secrets.md
+          - "🛠️ Mini-Project — Weather Chatbot": curriculum/Chapter02_Intermediate_Python/mini_project_weather_chatbot.md
       - "Chapter 3 — Python for AI & Data":
-          - "0. Overview":              PartI_HandsOn/Phase3_Python_for_AI/00_START_HERE.md
-          - "1. NumPy":                 PartI_HandsOn/Phase3_Python_for_AI/01_numpy.md
-          - "2. Pandas":                PartI_HandsOn/Phase3_Python_for_AI/02_pandas.md
-          - "3. Cosine Similarity":     PartI_HandsOn/Phase3_Python_for_AI/03_cosine_similarity.md
-          - "4. Tokenization":          PartI_HandsOn/Phase3_Python_for_AI/04_tokenization.md
-          - "🛠️ Mini-Project — CSV analyst": PartI_HandsOn/Phase3_Python_for_AI/mini_project_csv_analyst.md
+          - "0. Overview":              curriculum/Chapter03_Python_for_AI_Data/00_START_HERE.md
+          - "1. NumPy":                 curriculum/Chapter03_Python_for_AI_Data/01_numpy.md
+          - "2. Pandas":                curriculum/Chapter03_Python_for_AI_Data/02_pandas.md
+          - "3. Cosine Similarity":     curriculum/Chapter03_Python_for_AI_Data/03_cosine_similarity.md
+          - "4. Tokenization":          curriculum/Chapter03_Python_for_AI_Data/04_tokenization.md
+          - "🛠️ Mini-Project — CSV analyst": curriculum/Chapter03_Python_for_AI_Data/mini_project_csv_analyst.md
       - "Chapter 4 — Python for GenAI · deep dive":
-          - "1. Intro to Python (review)": Module2_Python_for_GenAI/01_Intro_to_Python.md
-          - "2. Files and Databases":      Module2_Python_for_GenAI/02_Files_and_Databases.md
-          - "3. Working with APIs":        Module2_Python_for_GenAI/03_Working_with_APIs.md
-          - "4. Working with LLMs":        Module2_Python_for_GenAI/04_Working_with_LLMs.md
-          - "🧪 Advanced Lab — Invoice Pipeline": Module2_Python_for_GenAI/99_Advanced_Lab_Invoice_Pipeline.md
+          - "1. Intro to Python (review)": curriculum/Chapter04_Python_for_GenAI/01_Intro_to_Python.md
+          - "2. Files and Databases":      curriculum/Chapter04_Python_for_GenAI/02_Files_and_Databases.md
+          - "3. Working with APIs":        curriculum/Chapter04_Python_for_GenAI/03_Working_with_APIs.md
+          - "4. Working with LLMs":        curriculum/Chapter04_Python_for_GenAI/04_Working_with_LLMs.md
+          - "🧪 Advanced Lab — Invoice Pipeline": curriculum/Chapter04_Python_for_GenAI/99_Advanced_Lab_Invoice_Pipeline.md
 
       # ───────────────────────────────────────────────────────────────
       # 🤖 Stage B — GenAI core (Chapters 5–7)
       # ───────────────────────────────────────────────────────────────
       - "Chapter 5 — GenAI Fundamentals (hands-on)":
-          - "0. Overview":                  PartI_HandsOn/Phase4_GenAI_Fundamentals/00_START_HERE.md
-          - "1. What is an LLM?":           PartI_HandsOn/Phase4_GenAI_Fundamentals/01_what_is_llm.md
-          - "2. Your first LLM call":       PartI_HandsOn/Phase4_GenAI_Fundamentals/02_first_llm_call.md
-          - "3. Prompt Engineering":        PartI_HandsOn/Phase4_GenAI_Fundamentals/03_prompt_engineering.md
-          - "4. Structured outputs (JSON)": PartI_HandsOn/Phase4_GenAI_Fundamentals/04_structured_outputs.md
-          - "5. Streaming":                 PartI_HandsOn/Phase4_GenAI_Fundamentals/05_streaming.md
-          - "6. Embeddings":                PartI_HandsOn/Phase4_GenAI_Fundamentals/06_embeddings.md
-          - "7. RAG system from scratch":   PartI_HandsOn/Phase4_GenAI_Fundamentals/07_rag_system.md
-          - "🛠️ Mini-Project — Doc Q&A":     PartI_HandsOn/Phase4_GenAI_Fundamentals/mini_project_doc_qa.md
-          - "🧰 Shared LLM Client":          PartI_HandsOn/Phase4_GenAI_Fundamentals/llm_client.md
+          - "0. Overview":                  curriculum/Chapter05_GenAI_Fundamentals/00_START_HERE.md
+          - "1. What is an LLM?":           curriculum/Chapter05_GenAI_Fundamentals/01_what_is_llm.md
+          - "2. Your first LLM call":       curriculum/Chapter05_GenAI_Fundamentals/02_first_llm_call.md
+          - "3. Prompt Engineering":        curriculum/Chapter05_GenAI_Fundamentals/03_prompt_engineering.md
+          - "4. Structured outputs (JSON)": curriculum/Chapter05_GenAI_Fundamentals/04_structured_outputs.md
+          - "5. Streaming":                 curriculum/Chapter05_GenAI_Fundamentals/05_streaming.md
+          - "6. Embeddings":                curriculum/Chapter05_GenAI_Fundamentals/06_embeddings.md
+          - "7. RAG system from scratch":   curriculum/Chapter05_GenAI_Fundamentals/07_rag_system.md
+          - "🛠️ Mini-Project — Doc Q&A":     curriculum/Chapter05_GenAI_Fundamentals/mini_project_doc_qa.md
+          - "🧰 Shared LLM Client":          curriculum/Chapter05_GenAI_Fundamentals/llm_client.md
       - "Chapter 6 — GenAI Foundations · deep dive":
-          - "1. Introduction to GenAI":           Module1_GenAI_Foundations/01_Introduction_to_GenAI.md
-          - "2. Prompt Engineering (theory)":     Module1_GenAI_Foundations/02_Prompt_Engineering.md
-          - "3. Fine-tuning, RAG, Agents":        Module1_GenAI_Foundations/03_FineTuning_RAG_Agents.md
-          - "🧪 Advanced Lab — Support Triage Assistant": Module1_GenAI_Foundations/99_Advanced_Lab_Support_Triage.md
+          - "1. Introduction to GenAI":           curriculum/Chapter06_GenAI_Foundations/01_Introduction_to_GenAI.md
+          - "2. Prompt Engineering (theory)":     curriculum/Chapter06_GenAI_Foundations/02_Prompt_Engineering.md
+          - "3. Fine-tuning, RAG, Agents":        curriculum/Chapter06_GenAI_Foundations/03_FineTuning_RAG_Agents.md
+          - "🧪 Advanced Lab — Support Triage Assistant": curriculum/Chapter06_GenAI_Foundations/99_Advanced_Lab_Support_Triage.md
       - "Chapter 7 — LangChain Core":
-          - "1. Introduction to LangChain":         Module3_LangChain/01_Introduction_to_LangChain.md
-          - "2. LCEL Essentials":                   Module3_LangChain/02_LCEL_Essentials.md
-          - "3. Managing LLM I/O":                  Module3_LangChain/03_Managing_LLM_IO.md
-          - "4. Prompt Engineering with LangChain": Module3_LangChain/04_Prompt_Engineering_with_LangChain.md
-          - "🧪 Advanced Lab — Onboarding Wizard":   Module3_LangChain/99_Advanced_Lab_Onboarding_Wizard.md
+          - "1. Introduction to LangChain":         curriculum/Chapter07_LangChain_Core/01_Introduction_to_LangChain.md
+          - "2. LCEL Essentials":                   curriculum/Chapter07_LangChain_Core/02_LCEL_Essentials.md
+          - "3. Managing LLM I/O":                  curriculum/Chapter07_LangChain_Core/03_Managing_LLM_IO.md
+          - "4. Prompt Engineering with LangChain": curriculum/Chapter07_LangChain_Core/04_Prompt_Engineering_with_LangChain.md
+          - "🧪 Advanced Lab — Onboarding Wizard":   curriculum/Chapter07_LangChain_Core/99_Advanced_Lab_Onboarding_Wizard.md
 
       # ───────────────────────────────────────────────────────────────
       # 🔍 Stage C — RAG (Chapter 8)
       # ───────────────────────────────────────────────────────────────
       - "Chapter 8 — RAG Systems & Frameworks":
-          - "1. RAG System Essentials":        Module4_RAG_and_Frameworks/01_RAG_System_Essentials.md
-          - "2. LangChain, LangGraph, CrewAI": Module4_RAG_and_Frameworks/02_LangChain_LangGraph_CrewAI.md
-          - "🧪 Advanced Lab — Legal RAG":      Module4_RAG_and_Frameworks/99_Advanced_Lab_Legal_RAG.md
+          - "1. RAG System Essentials":        curriculum/Chapter08_RAG_Systems_Frameworks/01_RAG_System_Essentials.md
+          - "2. LangChain, LangGraph, CrewAI": curriculum/Chapter08_RAG_Systems_Frameworks/02_LangChain_LangGraph_CrewAI.md
+          - "🧪 Advanced Lab — Legal RAG":      curriculum/Chapter08_RAG_Systems_Frameworks/99_Advanced_Lab_Legal_RAG.md
 
       # ───────────────────────────────────────────────────────────────
       # 🧠 Stage D — Agentic AI (Chapters 9–11)
       # ───────────────────────────────────────────────────────────────
       - "Chapter 9 — Agentic AI (hands-on)":
-          - "0. Overview":              PartI_HandsOn/Phase5_Agentic_AI/00_START_HERE.md
-          - "1. What is an Agent?":     PartI_HandsOn/Phase5_Agentic_AI/01_what_is_agent.md
-          - "2. Function Calling":      PartI_HandsOn/Phase5_Agentic_AI/02_function_calling.md
-          - "3. ReAct Agent":           PartI_HandsOn/Phase5_Agentic_AI/03_react_agent.md
-          - "4. Memory":                PartI_HandsOn/Phase5_Agentic_AI/04_memory.md
-          - "5. Guardrails":            PartI_HandsOn/Phase5_Agentic_AI/05_guardrails.md
-          - "6. Multi-Agent":           PartI_HandsOn/Phase5_Agentic_AI/06_multi_agent.md
-          - "7. LangGraph intro":       PartI_HandsOn/Phase5_Agentic_AI/07_langgraph_intro.md
-          - "🛠️ Mini-Project — IT triage agent": PartI_HandsOn/Phase5_Agentic_AI/mini_project_it_triage_agent.md
-          - "🧰 Shared LLM Client":     PartI_HandsOn/Phase5_Agentic_AI/llm_client.md
+          - "0. Overview":              curriculum/Chapter09_Agentic_AI_HandsOn/00_START_HERE.md
+          - "1. What is an Agent?":     curriculum/Chapter09_Agentic_AI_HandsOn/01_what_is_agent.md
+          - "2. Function Calling":      curriculum/Chapter09_Agentic_AI_HandsOn/02_function_calling.md
+          - "3. ReAct Agent":           curriculum/Chapter09_Agentic_AI_HandsOn/03_react_agent.md
+          - "4. Memory":                curriculum/Chapter09_Agentic_AI_HandsOn/04_memory.md
+          - "5. Guardrails":            curriculum/Chapter09_Agentic_AI_HandsOn/05_guardrails.md
+          - "6. Multi-Agent":           curriculum/Chapter09_Agentic_AI_HandsOn/06_multi_agent.md
+          - "7. LangGraph intro":       curriculum/Chapter09_Agentic_AI_HandsOn/07_langgraph_intro.md
+          - "🛠️ Mini-Project — IT triage agent": curriculum/Chapter09_Agentic_AI_HandsOn/mini_project_it_triage_agent.md
+          - "🧰 Shared LLM Client":     curriculum/Chapter09_Agentic_AI_HandsOn/llm_client.md
       - "Chapter 10 — Agentic AI Patterns · deep dive":
-          - "1. Agentic Design Patterns":    Module5_Agentic_AI/01_Agentic_Design_Patterns.md
-          - "2. Introduction to AI Agents":  Module5_Agentic_AI/02_Introduction_to_AI_Agents.md
-          - "3. Build a Reflection Agent":   Module5_Agentic_AI/03_Build_a_Reflection_Agent.md
-          - "4. Build a Tool-Using Agent":   Module5_Agentic_AI/04_Build_a_Tool_Using_Agent.md
-          - "5. Build a Planning Agent":     Module5_Agentic_AI/05_Build_a_Planning_Agent.md
-          - "6. Build a Multi-Agent System": Module5_Agentic_AI/06_Build_a_Multi_Agent_System.md
-          - "🧪 Advanced Lab — Engineering Crew (Capstone)": Module5_Agentic_AI/99_Advanced_Lab_Engineering_Crew.md
+          - "1. Agentic Design Patterns":    curriculum/Chapter10_Agentic_AI_Patterns/01_Agentic_Design_Patterns.md
+          - "2. Introduction to AI Agents":  curriculum/Chapter10_Agentic_AI_Patterns/02_Introduction_to_AI_Agents.md
+          - "3. Build a Reflection Agent":   curriculum/Chapter10_Agentic_AI_Patterns/03_Build_a_Reflection_Agent.md
+          - "4. Build a Tool-Using Agent":   curriculum/Chapter10_Agentic_AI_Patterns/04_Build_a_Tool_Using_Agent.md
+          - "5. Build a Planning Agent":     curriculum/Chapter10_Agentic_AI_Patterns/05_Build_a_Planning_Agent.md
+          - "6. Build a Multi-Agent System": curriculum/Chapter10_Agentic_AI_Patterns/06_Build_a_Multi_Agent_System.md
+          - "🧪 Advanced Lab — Engineering Crew (Capstone)": curriculum/Chapter10_Agentic_AI_Patterns/99_Advanced_Lab_Engineering_Crew.md
       - "Chapter 11 — Capstone Projects (IT-ops)":
-          - "0. Overview":                                 PartI_HandsOn/Phase6_Capstone_Projects/00_START_HERE.md
-          - "🏆 Capstone 1 — SPN renewal concierge":        PartI_HandsOn/Phase6_Capstone_Projects/capstone1_spn_renewal_concierge.md
-          - "🏆 Capstone 2 — PowerShell doc buddy":         PartI_HandsOn/Phase6_Capstone_Projects/capstone2_powershell_doc_buddy.md
-          - "🏆 Capstone 3 — Incident reporter":            PartI_HandsOn/Phase6_Capstone_Projects/capstone3_incident_reporter.md
+          - "0. Overview":                                 curriculum/Chapter11_Capstones_ITops/00_START_HERE.md
+          - "🏆 Capstone 1 — SPN renewal concierge":        curriculum/Chapter11_Capstones_ITops/capstone1_spn_renewal_concierge.md
+          - "🏆 Capstone 2 — PowerShell doc buddy":         curriculum/Chapter11_Capstones_ITops/capstone2_powershell_doc_buddy.md
+          - "🏆 Capstone 3 — Incident reporter":            curriculum/Chapter11_Capstones_ITops/capstone3_incident_reporter.md
 
       # ───────────────────────────────────────────────────────────────
       # 🚀 Stage E — Production (Chapter 12)
       # ───────────────────────────────────────────────────────────────
       - "Chapter 12 — Production Agents":
-          - "0. Overview":                       PartI_HandsOn/Phase7_Production_Agents/00_START_HERE.md
-          - "1. MCP — Model Context Protocol":   PartI_HandsOn/Phase7_Production_Agents/01_mcp.md
-          - "2. MCP server + client":            PartI_HandsOn/Phase7_Production_Agents/02_mcp_server_and_client.md
-          - "3. Production memory (Redis + Vector)": PartI_HandsOn/Phase7_Production_Agents/03_memory_production.md
-          - "4. Evaluating agents":              PartI_HandsOn/Phase7_Production_Agents/04_evaluation.md
-          - "5. Observability — logs, traces, metrics": PartI_HandsOn/Phase7_Production_Agents/05_observability.md
-          - "6. Failure modes & defenses":       PartI_HandsOn/Phase7_Production_Agents/06_failure_modes.md
-          - "7. Production architecture":        PartI_HandsOn/Phase7_Production_Agents/07_architecture.md
-          - "8. Deploy LangGraph on Kubernetes": PartI_HandsOn/Phase7_Production_Agents/08_deploy_langgraph_k8s.md
-          - "🏆 Final Capstone — Production SPN Agent": PartI_HandsOn/Phase7_Production_Agents/capstone_production_agent.md
-          - "🧰 Shared LLM Client":              PartI_HandsOn/Phase7_Production_Agents/llm_client.md
+          - "0. Overview":                       curriculum/Chapter12_Production_Agents/00_START_HERE.md
+          - "1. MCP — Model Context Protocol":   curriculum/Chapter12_Production_Agents/01_mcp.md
+          - "2. MCP server + client":            curriculum/Chapter12_Production_Agents/02_mcp_server_and_client.md
+          - "3. Production memory (Redis + Vector)": curriculum/Chapter12_Production_Agents/03_memory_production.md
+          - "4. Evaluating agents":              curriculum/Chapter12_Production_Agents/04_evaluation.md
+          - "5. Observability — logs, traces, metrics": curriculum/Chapter12_Production_Agents/05_observability.md
+          - "6. Failure modes & defenses":       curriculum/Chapter12_Production_Agents/06_failure_modes.md
+          - "7. Production architecture":        curriculum/Chapter12_Production_Agents/07_architecture.md
+          - "8. Deploy LangGraph on Kubernetes": curriculum/Chapter12_Production_Agents/08_deploy_langgraph_k8s.md
+          - "🏆 Final Capstone — Production SPN Agent": curriculum/Chapter12_Production_Agents/capstone_production_agent.md
+          - "🧰 Shared LLM Client":              curriculum/Chapter12_Production_Agents/llm_client.md
 
       # ───────────────────────────────────────────────────────────────
       # 🛠️ Stage F — Git / GitHub / Copilot / Security (Chapters 13–23)
       # ───────────────────────────────────────────────────────────────
       - "Chapter 13 — GitHub Setup":
-          - "0. Overview":  PartI_HandsOn/Phase8_GitHub_Setup/index.md
-          - "1. Exercises": PartI_HandsOn/Phase8_GitHub_Setup/exercises.md
+          - "0. Overview":  curriculum/Chapter13_GitHub_Setup/index.md
+          - "1. Exercises": curriculum/Chapter13_GitHub_Setup/exercises.md
       - "Chapter 14 — Git Fundamentals":
-          - "0. Overview":  PartI_HandsOn/Phase9_Git_Fundamentals/index.md
-          - "1. Exercises": PartI_HandsOn/Phase9_Git_Fundamentals/exercises.md
+          - "0. Overview":  curriculum/Chapter14_Git_Fundamentals/index.md
+          - "1. Exercises": curriculum/Chapter14_Git_Fundamentals/exercises.md
       - "Chapter 15 — GitHub Basics":
-          - "0. Overview":  PartI_HandsOn/Phase10_GitHub_Basics/index.md
-          - "1. Exercises": PartI_HandsOn/Phase10_GitHub_Basics/exercises.md
+          - "0. Overview":  curriculum/Chapter15_GitHub_Basics/index.md
+          - "1. Exercises": curriculum/Chapter15_GitHub_Basics/exercises.md
       - "Chapter 16 — Intermediate Git":
-          - "0. Overview":  PartI_HandsOn/Phase11_Intermediate_Git/index.md
-          - "1. Exercises": PartI_HandsOn/Phase11_Intermediate_Git/exercises.md
+          - "0. Overview":  curriculum/Chapter16_Intermediate_Git/index.md
+          - "1. Exercises": curriculum/Chapter16_Intermediate_Git/exercises.md
       - "Chapter 17 — GitHub Actions":
-          - "0. Overview":  PartI_HandsOn/Phase12_GitHub_Actions/index.md
-          - "1. Exercises": PartI_HandsOn/Phase12_GitHub_Actions/exercises.md
+          - "0. Overview":  curriculum/Chapter17_GitHub_Actions/index.md
+          - "1. Exercises": curriculum/Chapter17_GitHub_Actions/exercises.md
       - "Chapter 18 — Copilot + GenAI":
-          - "0. Overview":  PartI_HandsOn/Phase13_Copilot_GenAI/index.md
-          - "1. Exercises": PartI_HandsOn/Phase13_Copilot_GenAI/exercises.md
+          - "0. Overview":  curriculum/Chapter18_Copilot_GenAI/index.md
+          - "1. Exercises": curriculum/Chapter18_Copilot_GenAI/exercises.md
       - "Chapter 19 — Copilot CLI":
-          - "0. Overview":  PartI_HandsOn/Phase14_Copilot_CLI/index.md
-          - "1. Exercises": PartI_HandsOn/Phase14_Copilot_CLI/exercises.md
+          - "0. Overview":  curriculum/Chapter19_Copilot_CLI/index.md
+          - "1. Exercises": curriculum/Chapter19_Copilot_CLI/exercises.md
       - "Chapter 20 — Agentic AI with Copilot":
-          - "0. Overview":  PartI_HandsOn/Phase15_Agentic_AI_Copilot/index.md
-          - "1. Exercises": PartI_HandsOn/Phase15_Agentic_AI_Copilot/exercises.md
+          - "0. Overview":  curriculum/Chapter20_Agentic_AI_Copilot/index.md
+          - "1. Exercises": curriculum/Chapter20_Agentic_AI_Copilot/exercises.md
       - "Chapter 21 — GHAS Admin & Security":
-          - "0. Overview":  PartI_HandsOn/Phase16_GHAS_Admin/index.md
-          - "1. Exercises": PartI_HandsOn/Phase16_GHAS_Admin/exercises.md
+          - "0. Overview":  curriculum/Chapter21_GHAS_Admin_Security/index.md
+          - "1. Exercises": curriculum/Chapter21_GHAS_Admin_Security/exercises.md
       - "Chapter 22 — Exam Prep":
-          - "0. Overview":  PartI_HandsOn/Phase17_ExamPrep/index.md
-          - "1. Exercises": PartI_HandsOn/Phase17_ExamPrep/exercises.md
+          - "0. Overview":  curriculum/Chapter22_Exam_Prep/index.md
+          - "1. Exercises": curriculum/Chapter22_Exam_Prep/exercises.md
       - "Chapter 23 — Capstone (final)":
-          - "0. Overview":  PartI_HandsOn/Phase18_Capstone/index.md
-          - "1. Exercises": PartI_HandsOn/Phase18_Capstone/exercises.md
+          - "0. Overview":  curriculum/Chapter23_Final_Capstone/index.md
+          - "1. Exercises": curriculum/Chapter23_Final_Capstone/exercises.md
 
 extra:
   social:

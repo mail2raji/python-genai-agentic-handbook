@@ -1,0 +1,7 @@
+# Documentation build dependencies (separate from runtime curriculum deps).
+# Used by .github/workflows/deploy.yml to build the MkDocs Material book.
+
+mkdocs==1.6.1
+mkdocs-material==9.5.49
+pymdown-extensions==10.12
+mkdocs-material-extensions==1.3.1

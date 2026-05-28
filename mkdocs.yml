@@ -1,0 +1,116 @@
+site_name: GenAI & Agentic AI Handbook
+site_description: A beginner-to-advanced curriculum for GenAI and Agentic AI with hands-on exercises.
+site_author: mail2raji
+site_url: https://mail2raji.github.io/python-genai-agentic-handbook/
+repo_url: https://github.com/mail2raji/python-genai-agentic-handbook
+repo_name: mail2raji/python-genai-agentic-handbook
+edit_uri: edit/main/
+
+docs_dir: docs
+site_dir: _site
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Setup: SETUP.md
+  - "Module 1 — GenAI Foundations":
+      - "1. Introduction to GenAI": Module1_GenAI_Foundations/01_Introduction_to_GenAI.md
+      - "2. Prompt Engineering":    Module1_GenAI_Foundations/02_Prompt_Engineering.md
+      - "3. Fine-tuning, RAG, Agents": Module1_GenAI_Foundations/03_FineTuning_RAG_Agents.md
+  - "Module 2 — Python for GenAI":
+      - "1. Intro to Python":         Module2_Python_for_GenAI/01_Intro_to_Python.md
+      - "2. Files and Databases":     Module2_Python_for_GenAI/02_Files_and_Databases.md
+      - "3. Working with APIs":       Module2_Python_for_GenAI/03_Working_with_APIs.md
+      - "4. Working with LLMs":       Module2_Python_for_GenAI/04_Working_with_LLMs.md
+  - "Module 3 — LangChain Core":
+      - "1. Introduction to LangChain":            Module3_LangChain/01_Introduction_to_LangChain.md
+      - "2. LCEL Essentials":                      Module3_LangChain/02_LCEL_Essentials.md
+      - "3. Managing LLM I/O":                     Module3_LangChain/03_Managing_LLM_IO.md
+      - "4. Prompt Engineering with LangChain":    Module3_LangChain/04_Prompt_Engineering_with_LangChain.md
+  - "Module 4 — RAG & Frameworks":
+      - "1. RAG System Essentials":              Module4_RAG_and_Frameworks/01_RAG_System_Essentials.md
+      - "2. LangChain, LangGraph, CrewAI":       Module4_RAG_and_Frameworks/02_LangChain_LangGraph_CrewAI.md
+  - "Module 5 — Agentic AI":
+      - "1. Agentic Design Patterns":      Module5_Agentic_AI/01_Agentic_Design_Patterns.md
+      - "2. Introduction to AI Agents":    Module5_Agentic_AI/02_Introduction_to_AI_Agents.md
+      - "3. Build a Reflection Agent":     Module5_Agentic_AI/03_Build_a_Reflection_Agent.md
+      - "4. Build a Tool-Using Agent":     Module5_Agentic_AI/04_Build_a_Tool_Using_Agent.md
+      - "5. Build a Planning Agent":       Module5_Agentic_AI/05_Build_a_Planning_Agent.md
+      - "6. Build a Multi-Agent System":   Module5_Agentic_AI/06_Build_a_Multi_Agent_System.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mail2raji
+  generator: false
+
+copyright: >
+  Copyright © 2026 mail2raji —
+  <a href="#__consent">Change cookie settings</a>

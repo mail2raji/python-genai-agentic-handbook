@@ -1,0 +1,30 @@
+# Core LLM SDKs
+openai>=1.40.0
+python-dotenv>=1.0.1
+tiktoken>=0.7.0
+
+# LangChain ecosystem (Modules 3, 4, 5)
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langgraph>=0.2.0
+
+# Multi-agent (Module 5)
+crewai>=0.70.0
+
+# RAG (Module 4)
+chromadb>=0.5.0
+faiss-cpu>=1.8.0
+sentence-transformers>=3.0.0
+pypdf>=4.3.0
+unstructured>=0.15.0
+
+# Data + APIs (Module 2)
+requests>=2.32.0
+pandas>=2.2.0
+sqlalchemy>=2.0.0
+
+# Pretty printing / utilities
+rich>=13.7.0
+pydantic>=2.8.0

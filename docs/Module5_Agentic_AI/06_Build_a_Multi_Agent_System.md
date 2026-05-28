@@ -357,4 +357,4 @@ def supervisor(state):
 
 🎉 **You finished Module 5 — and the whole curriculum.** Congratulations!
 
-➡️ Next steps: see **[the homepage](../index.md#where-to-go-next)** for portfolio project ideas, evaluation tooling, and production deployment.
+➡️ Next steps: see **[the homepage](../index.md#where-to-go-after-chapter-23)** for portfolio project ideas, evaluation tooling, and production deployment.

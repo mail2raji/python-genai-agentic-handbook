@@ -84,19 +84,23 @@ nav:
       - "1. Introduction to GenAI": Module1_GenAI_Foundations/01_Introduction_to_GenAI.md
       - "2. Prompt Engineering":    Module1_GenAI_Foundations/02_Prompt_Engineering.md
       - "3. Fine-tuning, RAG, Agents": Module1_GenAI_Foundations/03_FineTuning_RAG_Agents.md
+      - "🧪 Advanced Lab — Support Triage Assistant": Module1_GenAI_Foundations/99_Advanced_Lab_Support_Triage.md
   - "Module 2 — Python for GenAI":
       - "1. Intro to Python":         Module2_Python_for_GenAI/01_Intro_to_Python.md
       - "2. Files and Databases":     Module2_Python_for_GenAI/02_Files_and_Databases.md
       - "3. Working with APIs":       Module2_Python_for_GenAI/03_Working_with_APIs.md
       - "4. Working with LLMs":       Module2_Python_for_GenAI/04_Working_with_LLMs.md
+      - "🧪 Advanced Lab — Invoice Pipeline": Module2_Python_for_GenAI/99_Advanced_Lab_Invoice_Pipeline.md
   - "Module 3 — LangChain Core":
       - "1. Introduction to LangChain":            Module3_LangChain/01_Introduction_to_LangChain.md
       - "2. LCEL Essentials":                      Module3_LangChain/02_LCEL_Essentials.md
       - "3. Managing LLM I/O":                     Module3_LangChain/03_Managing_LLM_IO.md
       - "4. Prompt Engineering with LangChain":    Module3_LangChain/04_Prompt_Engineering_with_LangChain.md
+      - "🧪 Advanced Lab — Onboarding Wizard":      Module3_LangChain/99_Advanced_Lab_Onboarding_Wizard.md
   - "Module 4 — RAG & Frameworks":
       - "1. RAG System Essentials":              Module4_RAG_and_Frameworks/01_RAG_System_Essentials.md
       - "2. LangChain, LangGraph, CrewAI":       Module4_RAG_and_Frameworks/02_LangChain_LangGraph_CrewAI.md
+      - "🧪 Advanced Lab — Legal RAG":            Module4_RAG_and_Frameworks/99_Advanced_Lab_Legal_RAG.md
   - "Module 5 — Agentic AI":
       - "1. Agentic Design Patterns":      Module5_Agentic_AI/01_Agentic_Design_Patterns.md
       - "2. Introduction to AI Agents":    Module5_Agentic_AI/02_Introduction_to_AI_Agents.md
@@ -104,6 +108,7 @@ nav:
       - "4. Build a Tool-Using Agent":     Module5_Agentic_AI/04_Build_a_Tool_Using_Agent.md
       - "5. Build a Planning Agent":       Module5_Agentic_AI/05_Build_a_Planning_Agent.md
       - "6. Build a Multi-Agent System":   Module5_Agentic_AI/06_Build_a_Multi_Agent_System.md
+      - "🧪 Advanced Lab — Engineering Crew (Capstone)": Module5_Agentic_AI/99_Advanced_Lab_Engineering_Crew.md
 
 extra:
   social:

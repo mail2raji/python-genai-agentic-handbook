@@ -18,6 +18,20 @@
 
 ---
 
+## 🧪 Advanced Labs (one per module)
+
+Every module ends with a **production-flavoured capstone lab** built around a real-world scenario. These are the labs you can actually put in your portfolio.
+
+| Lab | Scenario | What you build |
+|---|---|---|
+| [M1 — Support Triage Assistant](Module1_GenAI_Foundations/99_Advanced_Lab_Support_Triage.md) | NimbusCloud (SaaS) drowning in tickets | Schema-first JSON triage + audit pass + human-review queue |
+| [M2 — Invoice → Insights CLI](Module2_Python_for_GenAI/99_Advanced_Lab_Invoice_Pipeline.md) | PixelLatte CFO needs monthly expense report | 6-stage pipeline: PDF/CSV → SQLite → FX → LLM enrichment → CFO Markdown |
+| [M3 — Onboarding Wizard](Module3_LangChain/99_Advanced_Lab_Onboarding_Wizard.md) | AuroraBank HR onboards in 12 countries | LCEL chain with extract → route → parallel plan/video → memory chat |
+| [M4 — Legal RAG with Reranker](Module4_RAG_and_Frameworks/99_Advanced_Lab_Legal_RAG.md) | OrbitLegal reviews 200 NDAs/month | Clause-aware chunking + hybrid BM25/vector + cross-encoder + citations |
+| [M5 — Friday Ship Engineering Crew](Module5_Agentic_AI/99_Advanced_Lab_Engineering_Crew.md) | NovaDB CEO demands a tool by Monday | 5-agent crew (PM/Architect/Coder/Tester/Reviewer) with RAG + reflection |
+
+---
+
 ## 🧒 How each lesson is written
 
 Every lesson uses **the same 6 sections** so your brain knows what to expect:
